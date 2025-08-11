@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 238, 239);
+    overflow: hidden;
+}
+.Grably-heading{
+    position: relative;
+    display: flex;
+    margin: 4%;
+    bottom: 35px;
+    
+}
+
+.Grably-heading h1{
+     font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 1.8rem;
+}
+
+.links-bar{
+    position: absolute;
+    bottom: 88%;
+    left: 17%;
+
+}
+
+.links-menu ol{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 55px;
+
+
+}
+
+.links-txt{
+    
+ list-style-type: none;
+      font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.links-text{
+    list-style: none;
+         font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 1.2rem;
+
+}
+
+.links-txt:hover{
+    color: #10b50d;
+    cursor: pointer;
+    
+}
+.links-text:hover{
+    color:#10b50d;
+    cursor: pointer;
+}
+.Sign-in-btn{
+    position: absolute;
+    left: 80%;
+    bottom: 90%;
+}
+.Sign-button{
+    color: white;
+    background-color: #0cb309;
+    border: none;
+    padding: 11px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+     font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.cart-txt{
+    position: absolute;
+    bottom: 90.5%;
+    left: 90%;
+    font-size: 1.4rem;
+     font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+
+}
+.cart-txt:hover{
+    color: #077a06;
+    cursor: pointer;
+}
+.Plant-txt-container{
+    position:absolute;
+    left: 35%;
+    bottom: 55%;
+}
+
+.Plant-txt{
+    font-size: 10rem;
+    font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Paragraph-container{
+    position: absolute;
+    left: 38%;
+    bottom: 40%;
+}
+.Paragraph-container p{
+    font-size: 1.5rem;
+     font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.Paragraph-container,.p2{
+     font-size: 1.5rem;
+     font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.p2{
+    position: relative;
+    margin-top: 0;
+    left: -5%;
+}
+.Explore-container{
+    position: absolute;
+     left: 45%;
+    bottom: 35%;
+}
+.Explore-button{
+    padding: 11px 30px;
+     font-size: 17px;
+     font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+    border-radius: 2px;
+    border-style: none;
+    color: cornsilk;
+    background-color: #0dc00a;
+}
+.First-img{
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    left: -3%;
+}
+.Second-image-container{
+   position: absolute;
+   left: 70%;
+   bottom: -13%;
+}
+
+.Second-img{
+    height: 500px;
+    width: 380px;
+    rotate: 280deg;
+}
+.third-image-container{
+    position: absolute;
+    left: 35%;
+    bottom: -30%;
+    z-index: 0;
+    
+
+}
+
+.third-img{
+    height: 500px;
+    width: 300px;
+    rotate: 20deg;
+}
+
+.fourth-image-container{
+    position: absolute;
+    left: 75%;
+    z-index: -2;
+
+}
+.fourth-img{
+    height: 600px;
+    width: 390px;
+
+}
