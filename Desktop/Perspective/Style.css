@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(123deg, #080808,#1b1b1b);
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+.square1{
+    height: 450px;
+    width: 300px;
+    background: #0863cc;
+    border-radius: 5px;
+    transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform-style: preserve-3d;
+}
+
+.square2{
+     height: 450px;
+    width: 300px;
+    background: #0863cc;
+    border-radius: 5px;
+    transition: transform 0.3s  cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform-style: preserve-3d;
+}
+
+.square3{
+     height: 450px;
+    width: 300px;
+    background: #0863cc;
+    border-radius: 5px;
+    transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform-style: preserve-3d;
+}
+.square1:hover{
+ transform: perspective(1500px) rotateY(50deg);
+}
+
+.square2:hover{
+    transform: perspective(1500px) rotateY(-20deg) rotateX(20deg);
+}
+.square3:hover{
+    transform: perspective(1500px) rotateY(-50deg) rotateX(-25deg);
+}
